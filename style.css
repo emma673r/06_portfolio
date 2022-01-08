@@ -327,7 +327,7 @@ img {
     left: 0;
     right: 0;
     bottom: auto;
-    z-index: 1000;
+    z-index: 11;
     background-color: var(--persian-indigo);
     color: var(--dark-salmon);
     list-style: none;
@@ -353,13 +353,24 @@ img {
     transform: translateY(0%);
   }
 
+  #logo_mobile {
+    display: block;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 80%;
+  }
+
+  #logo_desktop {
+    display: none;
+  }
+
   /* COMMON END */
 }
 
 /* INDEX */
 
 .grafic_1 {
-  z-index: 100;
+  z-index: 10;
   aspect-ratio: 200/130;
   width: 70%;
   overflow: hidden;
@@ -380,7 +391,14 @@ img {
 
 /* TABLET */
 
-@media screen and (min-width: 750px) and (max-width: 1023px) {
+/* @media screen and  and (min-width: 750px) and (max-width: 1023px)  {
+} */
+
+/* TABLET END */
+
+/* DESKTOP */
+
+@media screen and (min-width: 750px) {
   h3 {
     font-size: 22px;
     font-family: poiret_one;
@@ -407,17 +425,19 @@ img {
   }
 
   nav a {
-    font-size: 16px;
+    font-size: 25px;
   }
 
   nav hr {
     display: none;
   }
 
-  #logo {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    width: 20%;
+  #logo_mobile {
+    display: none;
+  }
+
+  #logo_desktop {
+    display: block;
   }
 
   .burger_menu {
@@ -431,7 +451,7 @@ img {
   }
 
   .dropdown .dropbtn {
-    font-size: 16px;
+    font-size: 25px;
     border: none;
     outline: none;
     background-color: inherit;
@@ -476,13 +496,6 @@ img {
   #hamburger {
     display: none;
   }
-}
-
-/* TABLET END */
-
-/* DESKTOP */
-
-@media screen and (min-width: 1024px) {
 }
 
 /* DESKTOP END */
