@@ -143,6 +143,8 @@ hr {
 
 /* FONTS END */
 
+/* COMMON */
+
 * {
   margin: 0;
   padding: 0;
@@ -228,17 +230,6 @@ img {
   border-right: var(--gold-metallic);
 }
 
-#grafic_1 {
-  z-index: 5;
-  aspect-ratio: 200/130;
-  width: 50%;
-  justify-self: center;
-}
-
-.grid_container {
-  display: grid;
-}
-
 #burger_closed {
   background-image: url(assets/menu_icon.svg);
   aspect-ratio: 16/14;
@@ -298,6 +289,22 @@ nav li img {
 .showMenu {
   transform: translateY(0%);
 }
+
+/* COMMON END */
+/* INDEX */
+
+#grafic_1 {
+  z-index: 5;
+  aspect-ratio: 200/130;
+  width: 60%;
+  justify-self: center;
+}
+
+.grid_container {
+  display: grid;
+}
+
+/* INDEX END */
 
 /* MOBILE END*/
 
