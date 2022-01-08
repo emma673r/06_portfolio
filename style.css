@@ -56,6 +56,10 @@ h1 {
   font-style: normal;
 }
 
+.me {
+  font-size: 150pt;
+}
+
 h2 {
   font-size: 28pt;
   font-family: poiret_one;
@@ -166,9 +170,9 @@ hr {
   background-color: var(--dark-purple);
   z-index: -1;
   /* height: fit-content; */
-  height: 400px;
+  height: 300px;
   position: relative;
-  clip-path: polygon(100% 50%, 100% 100%, 0 100%, 0 50%, 50% 0);
+  clip-path: polygon(100% 100%, 100% 100%, 0% 100%, 0% 100%, 50% 0);
 }
 
 .index_article {
@@ -180,11 +184,16 @@ hr {
 .index_link {
   font-family: poiret_one;
   text-transform: capitalize;
-  font-size: 45pt;
+  font-size: 40pt;
   font-weight: 300;
-  position: absolute;
-  top: 20%;
-  left: 39%;
+  position: relative;
+  top: -55%;
+  left: 10%;
+}
+
+.about {
+  top: -38%;
+  left: -10%;
 }
 
 article h1,
