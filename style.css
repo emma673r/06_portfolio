@@ -42,16 +42,16 @@ h1 {
   font-size: 44pt;
   font-family: poiret_one;
   color: var(--dark-salmon);
-  line-height: 42px;
+  /* line-height: 42px; */
   font-weight: normal;
   font-style: normal;
 }
 
-h1 .number {
+.number {
   font-size: 210pt;
   color: var(--minion-yellow);
   font-family: poiret_one;
-  line-height: 42px;
+  /* line-height: 42px; */
   font-weight: normal;
   font-style: normal;
 }
@@ -90,7 +90,7 @@ h2 {
   color: var(--cadet-blue);
 }
 
-.emma{
+.emma {
   font-family: limelight;
   color: var(--minion-yellow);
 }
@@ -150,8 +150,50 @@ hr {
   padding: 0;
 }
 
-body {
+.triangle_down {
   background-color: var(--dark-purple);
+  height: fit-content;
+  z-index: -1;
+  /* height: 400px; */
+  position: relative;
+  clip-path: polygon(0 0, 100% 0%, 100% 50%, 50% 100%, 0% 50%);
+  /* to make responsive change padding top and bottom for different media sizes */
+  padding-top: 10%;
+  padding-bottom: 40%;
+}
+
+.triangle_up {
+  background-color: var(--dark-purple);
+  z-index: -1;
+  /* height: fit-content; */
+  height: 400px;
+  position: relative;
+  clip-path: polygon(100% 50%, 100% 100%, 0 100%, 0 50%, 50% 0);
+}
+
+.index_article {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+.index_link {
+  font-family: poiret_one;
+  text-transform: capitalize;
+  font-size: 45pt;
+  font-weight: 300;
+  position: absolute;
+  top: 20%;
+  left: 39%;
+}
+
+article h1,
+article a {
+  align-self: center;
+}
+
+body {
+  background-color: var(--russian-violet);
 }
 
 header {
@@ -175,8 +217,8 @@ footer div {
 }
 
 div p {
-font-family: abel;
-color: var(--minion-yellow);
+  font-family: abel;
+  color: var(--minion-yellow);
 }
 
 .bottom_separator {
@@ -293,16 +335,19 @@ nav li img {
 /* COMMON END */
 /* INDEX */
 
-#grafic_1 {
-  z-index: 5;
+.grafic_1 {
+  z-index: 100;
   aspect-ratio: 200/130;
-  width: 60%;
-  justify-self: center;
+  width: 70%;
+  overflow: hidden;
+  position: fixed;
+  top: 51%;
+  left: 15%;
 }
 
-.grid_container {
+/* .grid_container {
   display: grid;
-}
+} */
 
 /* INDEX END */
 
