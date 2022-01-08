@@ -529,7 +529,7 @@ article a {
     width: 60%;
     overflow: hidden;
     position: fixed;
-    top: 30%;
+    top: 20%;
     left: 20%;
   }
 
@@ -548,6 +548,32 @@ article a {
 
   #one {
     padding-left: 10%;
+  }
+
+  #footerid {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  footer {
+    background-color: var(--violet-crayola);
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+  }
+  footer p {
+    font-size: 20pt;
+  }
+
+  .bottom_separator {
+    background-image: url(assets/separator1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    aspect-ratio: 41/10;
+    width: 100%;
+    height: 4rem;
+    position: relative;
+    top: -81px;
   }
 }
 
