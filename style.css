@@ -526,11 +526,11 @@ article a {
   .grafic_1 {
     z-index: 10;
     aspect-ratio: 200/130;
-    width: 60%;
+    width: 40%;
     overflow: hidden;
     position: fixed;
     top: 20%;
-    left: 20%;
+    left: 30%;
   }
 
   .index_article {
