@@ -203,6 +203,32 @@ img {
   background-size: 100%;
 }
 
+.index_article {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+.index_link {
+  font-family: poiret_one;
+  text-transform: capitalize;
+  font-size: 40pt;
+  font-weight: 300;
+  position: relative;
+  top: -55%;
+  left: 10%;
+}
+
+.about {
+  top: -38%;
+  left: -10%;
+}
+
+article h1,
+article a {
+  align-self: center;
+}
+
 @media screen and (max-width: 750px) {
   header {
     background-color: var(--persian-indigo);
@@ -219,32 +245,6 @@ img {
     display: flex;
     flex-direction: column;
     gap: 5px;
-  }
-
-  .index_article {
-    height: 450px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .index_link {
-    font-family: poiret_one;
-    text-transform: capitalize;
-    font-size: 40pt;
-    font-weight: 300;
-    position: relative;
-    top: -55%;
-    left: 10%;
-  }
-
-  .about {
-    top: -38%;
-    left: -10%;
-  }
-
-  article h1,
-  article a {
-    align-self: center;
   }
 
   footer {
@@ -365,19 +365,19 @@ img {
   }
 
   /* COMMON END */
+
+  .grafic_1 {
+    z-index: 10;
+    aspect-ratio: 200/130;
+    width: 70%;
+    overflow: hidden;
+    position: fixed;
+    top: 51%;
+    left: 15%;
+  }
 }
 
 /* INDEX */
-
-.grafic_1 {
-  z-index: 10;
-  aspect-ratio: 200/130;
-  width: 70%;
-  overflow: hidden;
-  position: fixed;
-  top: 51%;
-  left: 15%;
-}
 
 /* .grid_container {
   display: grid;
@@ -409,7 +409,7 @@ img {
     color: var(--magenta-dye);
   }
 
-  header {
+  #headerid {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
@@ -497,6 +497,57 @@ img {
 
   #hamburger {
     display: none;
+  }
+
+  .bottom_separator {
+    background-image: url(assets/separator1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    aspect-ratio: 41/10;
+    width: 100%;
+    height: 2rem;
+    position: relative;
+    top: -25px;
+  }
+
+  .top_separator {
+    background-image: url(assets/separator2.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    aspect-ratio: 150/50;
+    width: 100%;
+    height: 3.5rem;
+    position: relative;
+    top: 27px;
+  }
+
+  .grafic_1 {
+    z-index: 10;
+    aspect-ratio: 200/130;
+    width: 60%;
+    overflow: hidden;
+    position: fixed;
+    top: 30%;
+    left: 20%;
+  }
+
+  .index_article {
+    height: 450px;
+    display: block;
+    padding-left: 10rem;
+  }
+
+  .droite {
+    height: 450px;
+    display: block;
+    justify-items: right;
+    padding-left: 70%;
+  }
+
+  #one {
+    padding-left: 10%;
   }
 }
 
