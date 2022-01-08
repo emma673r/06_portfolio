@@ -1,0 +1,154 @@
+/*************************************** COLOR SCHEME */
+:root {
+  --dark-purple: hsla(258, 80%, 10%, 1);
+  --russian-violet: hsla(265, 85%, 18%, 1);
+  --persian-indigo: hsla(268, 88%, 26%, 1);
+  --patriarch: hsla(289, 71%, 29%, 1);
+  --violet-crayola: hsla(312, 64%, 37%, 1);
+  --magenta-dye: hsla(326, 62%, 48%, 1);
+  --french-rose: hsla(336, 89%, 59%, 1);
+  --dark-salmon: hsla(14, 93%, 71%, 1);
+  --yellow-orange: hsla(34, 97%, 69%, 1);
+  --minion-yellow: hsla(50, 100%, 67%, 1);
+  --gold-metallic: hsla(43, 62%, 56%, 1);
+  --satin-sheen-gold: hsla(44, 45%, 53%, 1);
+  --middle-blue: hsla(187, 55%, 58%, 1);
+  --cadet-blue: hsla(183, 54%, 43%, 1);
+}
+
+/*************************************** COLOR SCHEME END */
+
+/* STYLE */
+
+/* MOBILE */
+
+/* FONTS */
+@font-face {
+  font-family: abel;
+  src: url(fonts/abel.woff2);
+}
+
+@font-face {
+  font-family: limelight;
+  src: url(fonts/limelight.woff2);
+}
+
+@font-face {
+  font-family: poiret_one;
+  src: url(fonts/poiretone.woff2);
+}
+
+h1 {
+  font-size: 50px;
+  font-family: poiret_one;
+  color: var(--dark-salmon);
+  line-height: 42px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 .number {
+  font-size: 50px;
+  color: var(--minion-yellow);
+  font-family: poiret_one;
+  line-height: 42px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: poiret_one;
+  text-transform: uppercase;
+  line-height: 23px;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 22px;
+  font-family: poiret_one;
+  text-transform: uppercase;
+  line-height: 1.4em;
+  margin-top: 1em;
+  font-weight: normal;
+}
+
+p {
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 0.5em;
+  max-width: 100ch;
+}
+
+p.caption {
+  font-size: 10px;
+  margin-top: -16px;
+  margin-bottom: 18px;
+  max-width: 60ch;
+}
+
+a {
+  font-size: 14px;
+  font-family: abel;
+  color: var(--dark-salmon);
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+a :hover {
+  font-size: 14px;
+  font-family: abel;
+  color: var(--minion-yellow);
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+a .index {
+  font-size: 50px;
+  font-family: poiret_one;
+  color: var(--dark-salmon);
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.em {
+  font-family: limelight;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+/* FONTS END */
+
+main {
+  width: 90%;
+  background-color: var(--dark-purple);
+}
+
+.logo {
+  background-image: url(logo/logo_mobile.svg);
+}
+
+/* MOBILE END*/
+
+/* RESPONSIVE */
+
+/* TABLET */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .logo {
+    background-image: url(logo/logo.svg);
+  }
+}
+
+/* TABLET END */
+
+/* DESKTOP */
+
+@media screen and (min-width: 1024px) {
+}
+
+/* DESKTOP END */
+
+/* RESPONSIVE END*/
+
+/* STYLE END */
