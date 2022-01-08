@@ -413,6 +413,7 @@ img {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
+    padding-right: 2rem;
   }
 
   ul {
@@ -438,6 +439,7 @@ img {
 
   #logo_desktop {
     display: block;
+    width: 50%;
   }
 
   .burger_menu {
