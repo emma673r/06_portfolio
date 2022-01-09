@@ -1,18 +1,78 @@
 h2 {
-  display: inline-flex;
-  line-height: 25pt;
+  padding-left: 1rem;
   font-size: 21.5pt;
-  align-content: space-around;
 }
 
+#desktop_intro {
+  display: none;
+}
 
 @media screen and (min-width: 750px) {
-
-#tema1 {
+  #tema1 {
     display: flex;
     align-content: center;
     padding: 0;
     padding-left: 0;
-}
+    padding-top: 5rem;
+  }
 
+  .index_link {
+    left: 0;
+  }
+
+  #one {
+    padding-left: 0;
+  }
+
+  .text {
+    width: 30ch;
+  }
+
+  h2 {
+    padding-left: 3rem;
+  }
+
+  #tema_1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, auto);
+  }
+
+  #first_tema {
+    grid-column: 3;
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem;
+    max-width: 30ch;
+  }
+
+  .arrow_down_link {
+    left: 46.6%;
+    width: 15%;
+    height: 15%;
+  }
+  #introvideo {
+    margin-top: 40%;
+    z-index: 100;
+    padding-left: 0;
+    font-size: 15pt;
+  }
+
+  #youtube1 {
+    height: fit-content;
+  }
+
+  #desktop_intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 4rem;
+    margin-top: 10rem;
+  }
+
+  iframe {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
 }

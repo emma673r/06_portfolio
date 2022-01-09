@@ -40,6 +40,10 @@
 
 /* COMMON CSS */
 
+header {
+  background-color: var(--persian-indigo);
+}
+
 h1 {
   font-size: 44pt;
   font-family: poiret_one;
@@ -69,6 +73,7 @@ h2 {
   color: var(--magenta-dye);
   line-height: 23px;
   font-weight: normal;
+  padding-top: 3rem;
 }
 
 .even {
@@ -77,6 +82,8 @@ h2 {
   margin-bottom: 0.5em;
   max-width: 100ch;
   color: var(--cadet-blue);
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 .even em {
@@ -90,6 +97,8 @@ h2 {
   margin-bottom: 0.5em;
   max-width: 100ch;
   color: var(--minion-yellow);
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .odd em {
@@ -130,10 +139,12 @@ a :hover {
   color: var(--yellow-orange);
 }
 
-.text {
-  padding-left: 3rem;
-  padding-right: 3rem;
-  padding-top: 2rem;
+#first_tema {
+  display: flex;
+}
+
+#tema_1 {
+  padding: 0;
 }
 
 main p {
@@ -166,8 +177,9 @@ hr {
 #introvideo {
   margin-top: 60%;
   z-index: 100;
+  padding-left: 1rem;
+  font-size: 15pt;
 }
-
 
 * {
   margin: 0;
@@ -225,6 +237,7 @@ img {
   height: 450px;
   display: flex;
   flex-direction: column;
+  justify-items: left;
 }
 
 .index_link {
@@ -248,7 +261,6 @@ article a {
 
 @media screen and (max-width: 750px) {
   header {
-    background-color: var(--persian-indigo);
     padding-left: 2rem;
   }
 
@@ -451,7 +463,7 @@ article a {
 
   #logo_desktop {
     display: block;
-    width: 150%;
+    width: 110%;
   }
 
   .burger_menu {
@@ -547,18 +559,18 @@ article a {
     left: 30%;
   }
 
-  .index_article {
-    height: 450px;
-    display: block;
-    justify-items: left;
-    padding-left: 10%;
-  }
-
   .droite {
     height: 450px;
     display: block;
     justify-items: right;
     padding-left: 70%;
+  }
+
+  .gauche {
+    height: 450px;
+    display: block;
+    justify-items: left;
+    padding-left: 10%;
   }
 
   #one {
