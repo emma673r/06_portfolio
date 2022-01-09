@@ -1,38 +1,3 @@
-/*************************************** COLOR SCHEME */
-:root {
-  --dark-purple: hsla(258, 80%, 10%, 1);
-  --russian-violet: hsla(265, 85%, 18%, 1);
-  --persian-indigo: hsla(268, 88%, 26%, 1);
-  --patriarch: hsla(289, 71%, 29%, 1);
-  --violet-crayola: hsla(312, 64%, 37%, 1);
-  --magenta-dye: hsla(326, 62%, 48%, 1);
-  --french-rose: hsla(336, 89%, 59%, 1);
-  --dark-salmon: hsla(14, 93%, 71%, 1);
-  --yellow-orange: hsla(34, 97%, 69%, 1);
-  --minion-yellow: hsla(50, 100%, 67%, 1);
-  --gold-metallic: hsla(43, 62%, 56%, 1);
-  --satin-sheen-gold: hsla(44, 45%, 53%, 1);
-  --middle-blue: hsla(187, 55%, 58%, 1);
-  --cadet-blue: hsla(183, 54%, 43%, 1);
-}
-
-/*************************************** COLOR SCHEME END */
-
-@font-face {
-  font-family: abel;
-  src: url(fonts/abel.woff2);
-}
-
-@font-face {
-  font-family: limelight;
-  src: url(fonts/limelight.woff2);
-}
-
-@font-face {
-  font-family: poiret_one;
-  src: url(fonts/poiretone.woff2);
-}
-
 h2 {
   display: inline-flex;
   line-height: 25pt;
