@@ -5,3 +5,14 @@ h2 {
   align-content: space-around;
 }
 
+
+@media screen and (min-width: 750px) {
+
+#tema1 {
+    display: flex;
+    align-content: center;
+    padding: 0;
+    padding-left: 0;
+}
+
+}

@@ -423,8 +423,9 @@ article a {
   #headerid {
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
-    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-left: 3rem;
   }
 
   ul {
@@ -450,7 +451,7 @@ article a {
 
   #logo_desktop {
     display: block;
-    width: 50%;
+    width: 150%;
   }
 
   .burger_menu {
