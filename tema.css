@@ -50,11 +50,20 @@ h2 {
     max-width: 30ch;
   }
 
+ .to_left {
+    grid-column: 3;
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem;
+    max-width: 30ch;
+  }
+
   .arrow_down_link {
     left: 46.6%;
     width: 15%;
     height: 15%;
   }
+  
   #introvideo {
     margin-top: 40%;
     z-index: 100;
@@ -70,13 +79,21 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-left: 4rem;
-    margin-top: 10rem;
+    margin-left: 20%;
+    margin-top: 20%;
   }
 
   iframe {
     display: flex;
     align-content: center;
     justify-content: center;
+  }
+
+  .border1 {
+    position: absolute;
+    transform: rotate(180deg);
+    left: 40%;
+    top: 20%;
+    width: 40%;
   }
 }
