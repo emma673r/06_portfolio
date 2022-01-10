@@ -21,13 +21,36 @@ h2 {
 #arrow2 {
   width: 30%;
   height: 30%;
-  top: 400%;
+  top: 480%;
   left: 38%;
 }
 
-
 #mobile_galleri {
   height: fit-content;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+#mobile_galleri figure {
+  width: 90%;
+  padding-left: 1rem;
+}
+
+#mobile_galleri img {
+  border-style: ridge;
+  border-width: 2px;
+  border-top-color: var(--satin-sheen-gold);
+  border-left-color: var(--satin-sheen-gold);
+  border-bottom-color: var(--gold-metallic);
+  border-right-color: var(--gold-metallic);
+}
+
+#tema_2 {
+  padding-bottom: 400px;
 }
 
 @media screen and (min-width: 750px) {
@@ -60,6 +83,12 @@ h2 {
   }
 
   #tema_1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, auto);
+  }
+
+  #tema_2 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(3, auto);
