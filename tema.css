@@ -28,6 +28,12 @@ h2 {
 .border1 {
   display: none;
 }
+.border2 {
+  display: none;
+}
+.border3 {
+  display: none;
+}
 
 #arrow1 {
   top: 300%;
@@ -39,7 +45,14 @@ h2 {
 #arrow2 {
   width: 30%;
   height: 30%;
-  top: 480%;
+  top: 425%;
+  left: 38%;
+}
+
+#arrow3 {
+  width: 100%;
+  height: 100%;
+  top: 40%;
   left: 38%;
 }
 
@@ -158,7 +171,6 @@ h2 {
 
   .linkmobile {
     margin-top: 40%;
-    z-index: 100;
     padding-left: 0;
     font-size: 15pt;
   }
@@ -171,6 +183,7 @@ h2 {
 
   #youtubevideo_1 {
     display: none;
+    z-index: 1;
   }
 
   #desktop_intro {
@@ -188,6 +201,22 @@ h2 {
   }
 
   .border1 {
+    display: block;
+    position: absolute;
+    transform: rotate(180deg);
+    left: 40%;
+    top: 280%;
+    width: 40%;
+  }
+  .border2 {
+    display: block;
+    position: absolute;
+    transform: rotate(180deg);
+    left: 40%;
+    top: 280%;
+    width: 40%;
+  }
+  .border3 {
     display: block;
     position: absolute;
     transform: rotate(180deg);
