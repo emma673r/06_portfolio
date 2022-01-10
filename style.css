@@ -583,9 +583,16 @@ article a {
     padding-bottom: 1rem;
     padding-top: 3rem;
   }
-  
+
   footer p {
     font-size: 20pt;
+  }
+
+  #footerid {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .bottom_separator {

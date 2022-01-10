@@ -24,6 +24,10 @@ h2 {
     padding-left: 0;
   }
 
+  #two {
+    padding-left: 8rem;
+  }
+
   .text {
     width: 30ch;
   }
