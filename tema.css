@@ -75,7 +75,8 @@ h2 {
 .border3,
 .border4,
 .border5,
-.border6 {
+.border6,
+.border8 {
   display: none;
 }
 
@@ -410,13 +411,20 @@ h2 {
   #arrow6 {
     width: 30%;
     height: 30%;
-    top: 230%;
+    top: 280%;
     left: 45%;
   }
   #arrow7 {
     width: 30%;
     height: 30%;
-    top: 230%;
+    top: 750%;
+    left: 45%;
+  }
+
+  #arrow8 {
+    width: 30%;
+    height: 30%;
+    top: 1100%;
     left: 45%;
   }
 
@@ -431,6 +439,10 @@ h2 {
     margin-top: 40%;
     padding-left: 0;
     font-size: 15pt;
+  }
+
+  #redesignlink {
+    margin: 0;
   }
 
   #youtube1 {
@@ -543,6 +555,14 @@ h2 {
     width: 40%;
   }
 
+  .border8 {
+    display: block;
+    position: absolute;
+    left: 5%;
+    top: 400%;
+    width: 40%;
+  }
+
   #galleritema2_wrapper {
     height: fit-content;
     /* background-color: var(--russian-violet); */
@@ -616,5 +636,9 @@ h2 {
 
   .nodesktop {
     display: none;
+  }
+
+  #piloth3 {
+    padding-bottom: 0;
   }
 }

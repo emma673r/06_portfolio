@@ -219,6 +219,9 @@ hr {
 .middle {
   background-color: var(--violet-crayola);
 }
+.middle2 {
+  background-color: var(--magenta-dye);
+}
 
 .no_triangle {
   padding-bottom: 300px;
