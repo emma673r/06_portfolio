@@ -2,3 +2,47 @@
   background-image: url(assets/background.png);
   background-size: 100%;
 }
+
+.dokumentationtriangle {
+  background-color: transparent;
+}
+.lilla {
+  color: var(--french-rose);
+  font-size: 30pt;
+}
+
+#grafic3 {
+  display: flex;
+  position: relative;
+  left: 30%;
+  width: 40%;
+  padding-bottom: 1rem;
+  border: none;
+}
+
+#grafic2 {
+  display: flex;
+  position: relative;
+  left: 30%;
+  width: 40%;
+  padding-bottom: 1rem;
+  border: none;
+}
+
+#dokcenter {
+  padding-bottom: 50px;
+}
+#dokcenter2 {
+  padding-top: 50px;
+  height: fit-content;
+}
+#doksisdt {
+  padding-bottom: 50px;
+  height: fit-content;
+}
+
+@media screen and (min-width: 750px) {
+  #grafic3 {
+    display: none;
+  }
+}
