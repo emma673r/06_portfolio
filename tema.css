@@ -66,6 +66,9 @@ h2 {
 #desktop_spil_prototype {
   display: none;
 }
+#desktop_pilot {
+  display: none;
+}
 
 .border1,
 .border2,
@@ -108,6 +111,26 @@ h2 {
   width: 30%;
   height: 30%;
   top: 640%;
+  left: 38%;
+}
+
+#arrow6 {
+  width: 30%;
+  height: 30%;
+  top: 370%;
+  left: 38%;
+}
+
+#arrow7 {
+  width: 30%;
+  height: 30%;
+  top: 1000%;
+  left: 38%;
+}
+#arrow8 {
+  width: 30%;
+  height: 30%;
+  top: 1450%;
   left: 38%;
 }
 
@@ -240,7 +263,9 @@ h2 {
 
 #tema_2_1,
 #tema_2_2,
-#tema2_3 {
+#tema_2_3,
+#tema_2_4,
+#tema_2_5 {
   padding-bottom: 400px;
 }
 
@@ -283,7 +308,6 @@ h2 {
   padding-top: 130px;
 }
 
-
 @media screen and (min-width: 750px) {
   #tema1 {
     display: flex;
@@ -322,7 +346,9 @@ h2 {
 
   #tema_2_1,
   #tema_2_2,
-  #tema_2_3 {
+  #tema_2_3,
+  #tema_2_4,
+  #tema_2_5 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(3, auto);
@@ -381,6 +407,19 @@ h2 {
     left: 45%;
   }
 
+  #arrow6 {
+    width: 30%;
+    height: 30%;
+    top: 230%;
+    left: 45%;
+  }
+  #arrow7 {
+    width: 30%;
+    height: 30%;
+    top: 230%;
+    left: 45%;
+  }
+
   .arrow_galleri {
     display: flex;
     flex-direction: column;
@@ -404,9 +443,15 @@ h2 {
     padding-bottom: 200px;
     /* padding-top: 200px; */
   }
+  #youtube3 {
+    height: fit-content;
+    padding-bottom: 200px;
+    /* padding-top: 200px; */
+  }
 
   #youtubevideo_1,
-  #youtubevideo_2 {
+  #youtubevideo_2,
+  #youtubevideo_3 {
     display: none;
     z-index: 1;
   }
@@ -420,6 +465,13 @@ h2 {
   }
 
   #desktop_spil_prototype {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 20%;
+    margin-top: 20%;
+  }
+  #desktop_pilot {
     display: flex;
     align-items: center;
     justify-content: space-around;
