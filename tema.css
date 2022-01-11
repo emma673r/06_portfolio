@@ -85,6 +85,7 @@ h2 {
   left: 40%;
   width: 30%;
   height: 30%;
+  z-index: 999;
 }
 
 #arrow2 {
@@ -92,6 +93,7 @@ h2 {
   height: 30%;
   top: 425%;
   left: 38%;
+  z-index: 999;
 }
 
 #arrow3 {
@@ -99,6 +101,7 @@ h2 {
   height: 30%;
   top: 2090%;
   left: 38%;
+  z-index: 999;
 }
 
 #arrow4 {
@@ -106,6 +109,7 @@ h2 {
   height: 30%;
   top: 270%;
   left: 38%;
+  z-index: 999;
 }
 
 #arrow5 {
@@ -113,6 +117,7 @@ h2 {
   height: 30%;
   top: 640%;
   left: 38%;
+  z-index: 999;
 }
 
 #arrow6 {
@@ -120,6 +125,7 @@ h2 {
   height: 30%;
   top: 370%;
   left: 38%;
+  z-index: 999;
 }
 
 #arrow7 {
@@ -127,12 +133,22 @@ h2 {
   height: 30%;
   top: 1000%;
   left: 38%;
+  z-index: 999;
 }
 #arrow8 {
   width: 30%;
   height: 30%;
   top: 1450%;
   left: 38%;
+  z-index: 999;
+}
+
+#arrow9 {
+  width: 30%;
+  height: 30%;
+  top: 300%;
+  left: 38%;
+  z-index: 999;
 }
 
 #mobile_galleri {
@@ -290,8 +306,13 @@ h2 {
 #tema_2_2,
 #tema_2_3,
 #tema_2_4,
-#tema_2_5 {
+#tema_2_5,
+#tema_2_6 {
   padding-bottom: 400px;
+}
+#tema_2_7,
+#tema_2_8 {
+  padding-bottom: 50px;
 }
 
 #arrow_system1,
@@ -299,6 +320,10 @@ h2 {
 #arrow_system3,
 #arrow_system4 {
   display: none;
+}
+
+#abouttriangledown {
+  z-index: -2;
 }
 
 .desktop_h3 {
@@ -374,7 +399,10 @@ h2 {
   #tema_2_2,
   #tema_2_3,
   #tema_2_4,
-  #tema_2_5 {
+  #tema_2_5,
+  #tema_2_6,
+  #tema_2_7,
+  #tema_2_8 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(3, auto);
@@ -410,6 +438,7 @@ h2 {
     left: 47%;
     width: 30%;
     height: 30%;
+    z-index: 999;
   }
 
   #arrow2 {
@@ -418,12 +447,14 @@ h2 {
     height: 30%;
     left: 46%;
     top: 290%;
+    z-index: 999;
   }
   #arrow3 {
     width: 30%;
     height: 30%;
     top: 1100%;
     left: 45%;
+    z-index: 999;
   }
 
   #arrow4 {
@@ -431,6 +462,7 @@ h2 {
     height: 30%;
     top: 230%;
     left: 45%;
+    z-index: 999;
   }
 
   #arrow5 {
@@ -438,6 +470,7 @@ h2 {
     height: 30%;
     top: 230%;
     left: 45%;
+    z-index: 999;
   }
 
   #arrow6 {
@@ -445,12 +478,14 @@ h2 {
     height: 30%;
     top: 260%;
     left: 45%;
+    z-index: 999;
   }
   #arrow7 {
     width: 30%;
     height: 30%;
     top: 710%;
     left: 45%;
+    z-index: 999;
   }
 
   #arrow8 {
@@ -458,6 +493,15 @@ h2 {
     height: 30%;
     top: 1010%;
     left: 45%;
+    z-index: 999;
+  }
+
+  #arrow9 {
+    width: 30%;
+    height: 30%;
+    top: 80%;
+    left: 45%;
+    z-index: 999;
   }
 
   .arrow_galleri {
