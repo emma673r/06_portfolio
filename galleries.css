@@ -1,0 +1,152 @@
+/* tema 3 galleri 1 */
+
+#img_galleri1 {
+  position: relative;
+  left: 25%;
+  width: 60%;
+  height: 400px;
+}
+
+.pic1 {
+  background-image: url(content/tema_3/prototype2/design/img1.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.pic2 {
+  background-image: url(content/tema_3/prototype2/design/img2.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.pic3 {
+  background-image: url(content/tema_3/prototype2/design/img3.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.pic4 {
+  background-image: url(content/tema_3/prototype2/design/img4.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* tema 3 galleri 2 */
+
+#img_galleri2 {
+  position: relative;
+  left: 26%;
+  width: 50%;
+  height: 700px;
+}
+
+.pic5 {
+  background-image: url(content/tema_3/prototype2/papir/img10.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.pic6 {
+  background-image: url(content/tema_3/prototype2/papir/img5.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.pic7 {
+  background-image: url(content/tema_3/prototype2/papir/img6.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.pic8 {
+  background-image: url(content/tema_3/prototype2/papir/img7.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.pic9 {
+  background-image: url(content/tema_3/prototype2/papir/img8.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.pic10 {
+  background-image: url(content/tema_3/prototype2/papir/img9.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* tema 3 galleri 2 */
+
+#img_galleri3 {
+  position: relative;
+  left:18%;
+  width: 70%;
+  height: 700px;
+}
+
+.pic11 {
+  background-image: url(content/tema_3/prototype2/prototype/img11.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.pic12 {
+  background-image: url(content/tema_3/prototype2/prototype/img12.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.pic13 {
+  background-image: url(content/tema_3/prototype2/prototype/img13.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.pic14 {
+  background-image: url(content/tema_3/prototype2/prototype/img14.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.pic15 {
+  background-image: url(content/tema_3/prototype2/prototype/img15.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.pic16 {
+  background-image: url(content/tema_3/prototype2/prototype/img16.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.pic17 {
+  background-image: url(content/tema_3/prototype2/prototype/img17.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.pic18 {
+  background-image: url(content/tema_3/prototype2/prototype/img18.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.pic19 {
+  background-image: url(content/tema_3/prototype2/prototype/img19.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}

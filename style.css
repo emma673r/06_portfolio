@@ -76,6 +76,16 @@ h2 {
   padding-top: 3rem;
 }
 
+h3 {
+  font-size: 24pt;
+  font-family: poiret_one;
+  text-transform: uppercase;
+  color: var(--french-rose);
+  line-height: 23px;
+  font-weight: normal;
+  padding-top: 1rem;
+}
+
 .even {
   font-family: abel;
   font-size: 20pt;
@@ -105,6 +115,21 @@ h2 {
   color: var(--cadet-blue);
 }
 
+a {
+  font-size: 20pt;
+  font-family: abel;
+  color: var(--dark-salmon);
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+a:hover {
+  font-family: abel;
+  color: var(--minion-yellow);
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
 .emma {
   font-family: limelight;
   color: var(--minion-yellow);
@@ -116,21 +141,6 @@ figcaption {
   margin-bottom: 18px;
   max-width: 60ch;
   color: var(--dark-purple);
-}
-
-a {
-  font-size: 20pt;
-  font-family: abel;
-  color: var(--dark-salmon);
-  text-transform: uppercase;
-  text-decoration: underline;
-}
-
-a :hover {
-  font-family: abel;
-  color: var(--yellow-orange);
-  text-transform: uppercase;
-  text-decoration: underline;
 }
 
 .em {
@@ -426,13 +436,13 @@ article a {
 
 @media screen and (min-width: 750px) {
   h3 {
-    font-size: 22px;
+    font-size: 26px;
     font-family: poiret_one;
     text-transform: uppercase;
     line-height: 1.4em;
-    margin-top: 1em;
     font-weight: normal;
-    color: var(--magenta-dye);
+    color: var(--french-rose);
+    padding-bottom: 200px;
   }
 
   #headerid {
