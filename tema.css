@@ -597,6 +597,12 @@ h2 {
     display: flex;
     align-content: center;
     justify-content: center;
+    border-style: ridge;
+    border-width: 5px;
+    border-top-color: var(--satin-sheen-gold);
+    border-left-color: var(--satin-sheen-gold);
+    border-bottom-color: var(--gold-metallic);
+    border-right-color: var(--gold-metallic);
   }
 
   .border1 {

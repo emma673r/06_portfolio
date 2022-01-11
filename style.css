@@ -40,6 +40,10 @@
 
 /* COMMON CSS */
 
+.strike {
+  text-decoration: line-through;
+}
+
 header {
   background-color: var(--persian-indigo);
 }
