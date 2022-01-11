@@ -146,7 +146,7 @@ h2 {
 #arrow9 {
   width: 30%;
   height: 30%;
-  top: 300%;
+  top: 210%;
   left: 38%;
   z-index: 999;
 }
@@ -306,13 +306,17 @@ h2 {
 #tema_2_2,
 #tema_2_3,
 #tema_2_4,
-#tema_2_5,
-#tema_2_6 {
+#tema_2_5 {
   padding-bottom: 400px;
 }
 #tema_2_7,
 #tema_2_8 {
   padding-bottom: 50px;
+}
+
+#tema_2_6 {
+  padding-top: 50px;
+  padding-bottom: 200px;
 }
 
 #arrow_system1,
@@ -358,13 +362,23 @@ h2 {
   padding-top: 130px;
 }
 
- #cv {
-    font-size: 26pt;
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    padding-left: 0;
-  }
+#cv {
+  font-size: 26pt;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  padding-left: 0;
+}
+
+#om_mig_img {
+  aspect-ratio: 1300/1020;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-image: url(content/om_mig/om_mig.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 
 @media screen and (min-width: 750px) {
   #tema1 {
@@ -507,7 +521,7 @@ h2 {
   #arrow9 {
     width: 30%;
     height: 30%;
-    top: 80%;
+    top: 290%;
     left: 45%;
     z-index: 999;
   }
@@ -749,5 +763,23 @@ h2 {
   #om_mig_agtig {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
+  }
+
+  #om_mig_img {
+    aspect-ratio: 1300/1020;
+    height: 200%;
+    width: 200%;
+    position: relative;
+    left: 20%;
+    background-image: url(content/om_mig/om_mig.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  #om_mig_img:hover {
+    aspect-ratio: 1300/1020;
+    background-image: url(content/om_mig/om_mig_hover.png);
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 }
