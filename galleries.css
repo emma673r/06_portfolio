@@ -88,7 +88,7 @@
 
 #img_galleri3 {
   position: relative;
-  left:16%;
+  left: 16%;
   width: 70%;
   height: 700px;
 }
@@ -152,3 +152,45 @@
 }
 
 /* tema 3 galleri 4 */
+
+#img_galleri4 {
+  position: relative;
+  left: 30%;
+  width: 60%;
+  height: 400px;
+}
+
+.pic20 {
+  background-image: url(content/tema_4/img1.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.pic21 {
+  background-image: url(content/tema_4/img2.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.pic22 {
+  background-image: url(content/tema_4/img3.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.pic23 {
+  background-image: url(content/tema_4/img4.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.pic24 {
+  background-image: url(content/tema_4/img5.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}

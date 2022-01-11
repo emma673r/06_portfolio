@@ -28,7 +28,6 @@ function sidenVises() {
   img2.classList.add("pic" + myNumber2);
   // tema 3 galleri 3
   img3.classList.add("pic" + myNumber3);
-  console.log(myNumber1);
   // tema 3 galleri 1
   arrowRight1.addEventListener("click", clickNext);
   arrowLeft1.addEventListener("click", clickPrevious);
@@ -73,5 +72,5 @@ function clickPrevious() {
   // tema 3 galleri 2
   if (myNumber2 <= 5) myNumber2 = 10;
   // tema 3 galleri 3
-  if (myNumber3 <= 11) myNumber3 = 20;
+  if (myNumber3 <= 11) myNumber3 = 19;
 }
