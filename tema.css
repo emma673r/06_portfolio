@@ -599,6 +599,14 @@ h2 {
     width: 40%;
   }
 
+  .border9 {
+    display: block;
+    position: absolute;
+    left: 15%;
+    top: 835%;
+    width: 30%;
+  }
+
   #galleritema2_wrapper {
     height: fit-content;
     /* background-color: var(--russian-violet); */

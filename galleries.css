@@ -194,3 +194,53 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+/* tema dok galleri 5 */
+
+#img_galleri5 {
+  position: relative;
+  left: 30%;
+  width: 60%;
+  height: 400px;
+}
+
+.pic25 {
+  background-image: url(content/dokumentation/img1.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.pic26 {
+  background-image: url(content/dokumentation/img2.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.pic27 {
+  background-image: url(content/dokumentation/img3.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.pic28 {
+  background-image: url(content/dokumentation/img4.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.pic29 {
+  background-image: url(content/dokumentation/img5.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.pic30 {
+  background-image: url(content/dokumentation/img6.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
