@@ -262,6 +262,7 @@ h2 {
   display: none;
 }
 
+#tema_2,
 #tema_2_1,
 #tema_2_2,
 #tema_2_3,
@@ -345,6 +346,7 @@ h2 {
     grid-template-rows: repeat(3, auto);
   }
 
+  #tema_2,
   #tema_2_1,
   #tema_2_2,
   #tema_2_3,
@@ -411,20 +413,20 @@ h2 {
   #arrow6 {
     width: 30%;
     height: 30%;
-    top: 280%;
+    top: 260%;
     left: 45%;
   }
   #arrow7 {
     width: 30%;
     height: 30%;
-    top: 750%;
+    top: 710%;
     left: 45%;
   }
 
   #arrow8 {
     width: 30%;
     height: 30%;
-    top: 1100%;
+    top: 1010%;
     left: 45%;
   }
 
@@ -442,6 +444,10 @@ h2 {
   }
 
   #redesignlink {
+    margin: 0;
+  }
+
+  #pilotlink {
     margin: 0;
   }
 
@@ -501,9 +507,9 @@ h2 {
     display: block;
     position: absolute;
     transform: rotate(180deg);
-    left: 50%;
-    top: 289%;
-    width: 40%;
+    left: 40%;
+    top: 290%;
+    width: 30%;
   }
 
   .border2 {
@@ -535,7 +541,7 @@ h2 {
     position: absolute;
     transform: rotate(90deg);
     left: 55%;
-    top: 1200%;
+    top: 1180%;
     width: 40%;
   }
   .border6 {
@@ -559,7 +565,7 @@ h2 {
     display: block;
     position: absolute;
     left: 5%;
-    top: 400%;
+    top: 380%;
     width: 40%;
   }
 
