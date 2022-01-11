@@ -63,12 +63,16 @@ h2 {
 #desktop_intro {
   display: none;
 }
+#desktop_spil_prototype {
+  display: none;
+}
 
 .border1,
 .border2,
 .border3,
 .border4,
-.border5 {
+.border5,
+.border6 {
   display: none;
 }
 
@@ -90,6 +94,20 @@ h2 {
   width: 30%;
   height: 30%;
   top: 2090%;
+  left: 38%;
+}
+
+#arrow4 {
+  width: 30%;
+  height: 30%;
+  top: 270%;
+  left: 38%;
+}
+
+#arrow5 {
+  width: 30%;
+  height: 30%;
+  top: 640%;
   left: 38%;
 }
 
@@ -116,6 +134,7 @@ h2 {
   border-bottom-color: var(--gold-metallic);
   border-right-color: var(--gold-metallic);
 }
+
 #mobile_galleri1 {
   height: fit-content;
   padding-top: 50px;
@@ -185,6 +204,29 @@ h2 {
   border-bottom-color: var(--gold-metallic);
   border-right-color: var(--gold-metallic);
 }
+#mobile_galleri4 {
+  height: fit-content;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+#mobile_galleri4 figure {
+  width: 90%;
+  padding-left: 1rem;
+}
+
+#mobile_galleri4 img {
+  border-style: ridge;
+  border-width: 2px;
+  border-top-color: var(--satin-sheen-gold);
+  border-left-color: var(--satin-sheen-gold);
+  border-bottom-color: var(--gold-metallic);
+  border-right-color: var(--gold-metallic);
+}
 
 #img_galleri1 {
   display: none;
@@ -199,12 +241,6 @@ h2 {
 #tema_2_1,
 #tema_2_2 {
   padding-bottom: 400px;
-}
-#arrow_galleri1,
-#arrow_galleri2,
-#arrow_galleri3,
-#arrow_galleri4 {
-  display: none;
 }
 
 #arrow_system1,
@@ -324,6 +360,20 @@ h2 {
     left: 45%;
   }
 
+  #arrow4 {
+    width: 30%;
+    height: 30%;
+    top: 230%;
+    left: 45%;
+  }
+
+  #arrow5 {
+    width: 30%;
+    height: 30%;
+    top: 230%;
+    left: 45%;
+  }
+
   .arrow_galleri {
     display: flex;
     flex-direction: column;
@@ -342,13 +392,27 @@ h2 {
     padding-bottom: 200px;
     /* padding-top: 200px; */
   }
+  #youtube2 {
+    height: fit-content;
+    padding-bottom: 200px;
+    /* padding-top: 200px; */
+  }
 
-  #youtubevideo_1 {
+  #youtubevideo_1,
+  #youtubevideo_2 {
     display: none;
     z-index: 1;
   }
 
   #desktop_intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 20%;
+    margin-top: 20%;
+  }
+
+  #desktop_spil_prototype {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -366,8 +430,8 @@ h2 {
     display: block;
     position: absolute;
     transform: rotate(180deg);
-    left: 40%;
-    top: 280%;
+    left: 50%;
+    top: 289%;
     width: 40%;
   }
 
@@ -401,6 +465,14 @@ h2 {
     transform: rotate(90deg);
     left: 55%;
     top: 1200%;
+    width: 40%;
+  }
+  .border6 {
+    display: block;
+    position: absolute;
+    transform: rotate(180deg);
+    left: 55%;
+    top: 350%;
     width: 40%;
   }
 
