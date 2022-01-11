@@ -358,6 +358,14 @@ h2 {
   padding-top: 130px;
 }
 
+ #cv {
+    font-size: 26pt;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    padding-left: 0;
+  }
+
 @media screen and (min-width: 750px) {
   #tema1 {
     display: flex;
@@ -404,7 +412,7 @@ h2 {
   #tema_2_7,
   #tema_2_8 {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 2fr 1fr 2fr;
     grid-template-rows: repeat(3, auto);
     padding-top: 50px;
     padding-bottom: 50px;
@@ -512,7 +520,7 @@ h2 {
   }
 
   .linkmobile {
-    margin-top: 40%;
+    padding-top: 40px;
     padding-left: 0;
     font-size: 15pt;
   }
@@ -646,8 +654,8 @@ h2 {
   .border9 {
     display: block;
     position: absolute;
-    left: 15%;
-    top: 835%;
+    left: 20%;
+    top: 825%;
     width: 30%;
   }
 
@@ -729,5 +737,17 @@ h2 {
 
   #piloth3 {
     padding-bottom: 0;
+  }
+
+  #cv {
+    font-size: 30pt;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  }
+
+  #om_mig_agtig {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
   }
 }
