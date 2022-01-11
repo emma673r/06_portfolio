@@ -216,6 +216,10 @@ hr {
   clip-path: polygon(100% 100%, 100% 100%, 0% 100%, 0% 100%, 50% 0);
 }
 
+.middle {
+  background-color: var(--violet-crayola);
+}
+
 .no_triangle {
   padding-bottom: 300px;
 }

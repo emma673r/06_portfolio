@@ -162,7 +162,7 @@ h2 {
   display: none;
 }
 
-#tema_2 {
+#tema_2_1, #tema_2_2 {
   padding-bottom: 400px;
 }
 
@@ -193,6 +193,7 @@ h2 {
 
   h2 {
     padding-left: 3rem;
+    font-size: 32pt;
   }
 
   #tema_1 {
@@ -201,7 +202,7 @@ h2 {
     grid-template-rows: repeat(3, auto);
   }
 
-  #tema_2 {
+  #tema_2_1, #tema_2_2 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(3, auto);
@@ -300,7 +301,7 @@ h2 {
     position: absolute;
     transform: rotate(90deg);
     left: 47%;
-    top: 530%;
+    top: 575%;
     width: 40%;
   }
 
@@ -308,7 +309,7 @@ h2 {
     display: block;
     position: absolute;
     left: 10%;
-    top: 700%;
+    top: 830%;
     width: 40%;
   }
 
