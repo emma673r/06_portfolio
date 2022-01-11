@@ -397,6 +397,13 @@ h2 {
     padding: 2rem;
     max-width: 30ch;
   }
+  .to_left {
+    grid-column: 1;
+    display: flex;
+    justify-content: flex-start;
+    padding: 2rem;
+    max-width: 30ch;
+  }
 
   #arrow1 {
     top: 230%;

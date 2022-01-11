@@ -6,7 +6,9 @@
 .dokumentationtriangle {
   background-color: transparent;
 }
+
 .lilla {
+  width: 100%;
   color: var(--french-rose);
   font-size: 30pt;
 }
@@ -30,6 +32,10 @@
 }
 
 #dokcenter {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 #dokcenter2 {
@@ -40,9 +46,20 @@
   padding-bottom: 50px;
   height: fit-content;
 }
+.grafic3 {
+   display: none;
+  }
 
 @media screen and (min-width: 750px) {
   #grafic3 {
     display: none;
+  }
+
+  .grafic3 {
+    display: block;
+    position: relative;
+    width: 15%;
+    top: 20%;
+    left: 35%;
   }
 }
